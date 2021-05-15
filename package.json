@@ -4,7 +4,8 @@
   "description": "making svg into vue component integrated with figma",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --env path=env",
+    "generate": "node src/tools/collect-components.js",
+    "build": "npm run generate && webpack --env path=env",
     "dev": "webpack serve --open --env path=env.development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -46,8 +47,6 @@
   "dependencies": {
     "@babel/runtime": "^7.14.0",
     "@babel/runtime-corejs3": "^7.14.0",
-  },
-  "peerDependencies": {
     "vue": "^2.6.12"
   }
 }

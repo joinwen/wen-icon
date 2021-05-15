@@ -1,26 +1,25 @@
 <template>
-  <h2 class="h2">
-    {{ name }}
-    <ChartBar />
-    <Bird />
-  </h2>
+  <div>
+    <component :is="map[name]"></component>
+    <Annotation />
+  </div>
 </template>
 <script>
-import ChartBar from "@/assets/svg/chart-bar.svg";
-import Bird from "@/assets/svg/Bird.svg";
-
+import svgFactory from "../../tools/svg";
 export default {
   name: "Icon",
-  components: { ChartBar, Bird },
+  components: svgFactory.generateComponents(),
+  props: {
+    name: {
+      type: String,
+      default: "academic-cap",
+    },
+  },
   data() {
     return {
-      name: "hello world",
+      map: svgFactory.generateMap()
     };
   },
 };
 </script>
-<style scoped lang="css">
-.h2 {
-  color: red;
-}
-</style>
+<style scoped lang="css"></style>

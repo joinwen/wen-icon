@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Icon />
+    <Icon name="annotation" />
   </div>
 </template>
 <script>

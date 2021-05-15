@@ -1,0 +1,26 @@
+[
+  {
+    "origin": "academic-cap.svg",
+    "name": "academic-cap",
+    "componentName": "AcademicCap",
+    "suffix": "svg"
+  },
+  {
+    "origin": "adjustments.svg",
+    "name": "adjustments",
+    "componentName": "Adjustments",
+    "suffix": "svg"
+  },
+  {
+    "origin": "annotation.svg",
+    "name": "annotation",
+    "componentName": "Annotation",
+    "suffix": "svg"
+  },
+  {
+    "origin": "chart-bar.svg",
+    "name": "chart-bar",
+    "componentName": "ChartBar",
+    "suffix": "svg"
+  }
+]
