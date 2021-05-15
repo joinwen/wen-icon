@@ -1,19 +1,31 @@
 <template>
-  <div>
-    <component :is="map[name]"></component>
-    <Annotation />
-  </div>
+  <component class="icon" :is="map[name]" :width="width" :height="height" :fill="fill"></component>
 </template>
 <script>
 import svgFactory from "../../tools/svg";
 export default {
   name: "Icon",
-  components: svgFactory.generateComponents(),
   props: {
     name: {
       type: String,
       default: "academic-cap",
     },
+    width: {
+      type: [String, Number],
+      default: "24px"
+    },
+    height: {
+      type: [String, Number],
+      default: "24px"
+    },
+    fill: {
+      type: String,
+      default: "white"
+    },
+    stroke: {
+      type: String,
+      default: "black"
+    }
   },
   data() {
     return {
@@ -22,4 +34,8 @@ export default {
   },
 };
 </script>
-<style scoped lang="css"></style>
+<style scoped lang="css">
+.icon > path {
+  stroke: cyan;
+}
+</style>

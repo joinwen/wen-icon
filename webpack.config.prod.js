@@ -1,16 +1,15 @@
 const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
 const Dotenv = require("dotenv-webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = (env) => {
   const envPath = `.${env.file || "env"}`;
   return {
-    mode: "development",
-    entry: "/src/index.js",
+    mode: "production",
+    entry: "/src/main.js",
     output: {
       filename: "[name].index.js",
-      path: path.resolve(__dirname, "preview"),
+      path: path.resolve(__dirname, "dist"),
     },
     resolve: {
       alias: {
@@ -64,20 +63,13 @@ module.exports = (env) => {
         },
       ],
     },
-    devServer: {
-      contentBase: "./dist",
-      hot: true,
-    },
     plugins: [
       new VueLoaderPlugin(),
       new Dotenv({
         path: envPath,
         systemvars: true,
         defaults: ".env",
-      }),
-      new HtmlWebpackPlugin({
-        template: "./public/index.html",
-      }),
+      })
     ],
   };
 };
