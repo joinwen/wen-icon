@@ -1,9 +1,7 @@
 ## wen-icon
 
 ### preview
-```
 https://joinwen.github.io/wen-icon/
-```
 
 ### install
 
