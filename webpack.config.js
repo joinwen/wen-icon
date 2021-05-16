@@ -2,6 +2,7 @@ const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
 const Dotenv = require("dotenv-webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = (env) => {
   const envPath = `.${env.file || "env"}`;
@@ -69,6 +70,7 @@ module.exports = (env) => {
     },
     plugins: [
       new VueLoaderPlugin(),
+        new CleanWebpackPlugin(),
       new Dotenv({
         path: envPath,
         systemvars: true,
