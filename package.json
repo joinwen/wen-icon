@@ -1,6 +1,6 @@
 {
   "name": "wen-icon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "making svg into vue component integrated with figma",
   "main": "dist/main.js",
   "module": "src/main.js",

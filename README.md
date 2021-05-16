@@ -1,6 +1,9 @@
 ## wen-icon
 
 ### preview
+```
+https://joinwen.github.io/wen-icon/
+```
 
 ### install
 
@@ -47,7 +50,7 @@ module.exports = {
 - #### 1. basic
 ```
 // 1. 引入
-import { WenIcon } from "wen-icon";
+import WenIcon from "wen-icon";
 
 // 2. 局部注册组件
 components: { WenIcon }
