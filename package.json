@@ -9,6 +9,7 @@
     "dev": "npm run generate && webpack serve --open --env file=env.development",
     "build:preview": "npm run generate && webpack --env file=env.production",
     "build": "npm run generate && webpack --config webpack.config.prod.js --env file=env.production",
+    "gh-pages": "gh-pages -d preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,6 +36,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-vue": "^7.9.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.2",
     "less": "^4.1.1",
     "less-loader": "^7.3.0",

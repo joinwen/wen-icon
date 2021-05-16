@@ -8,14 +8,14 @@ class SvgFactory {
   generateMap() {
     this.list.forEach(svg => {
       let key = svg.name;
-      this.map[key] = () => import(`../assets/svg/${svg.origin}`);
+      this.map[key] = () => import(`../assets/svg/${svg.origin}?wen-icon`);
     })
     return this.map;
   };
   generateComponents() {
     this.list.forEach(svg => {
       let key = svg.componentName;
-      this.comps[key] = () => import(`../assets/svg/${svg.origin}`);
+      this.comps[key] = () => import(`../assets/svg/${svg.origin}?wen-icon`);
     })
     return this.comps;
   };

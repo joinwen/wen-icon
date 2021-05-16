@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[9],{
 
 /***/ "./node_modules/vue-svg-component-runtime/lib-esm/index.js":
 /*!*****************************************************************!*\
@@ -12,14 +12,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/assets/svg/academic-cap.svg":
-/*!*****************************************!*\
-  !*** ./src/assets/svg/academic-cap.svg ***!
-  \*****************************************/
+/***/ "./src/assets/svg/arrow-left.svg?wen-icon":
+/*!************************************************!*\
+  !*** ./src/assets/svg/arrow-left.svg?wen-icon ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\n    var runtime = __webpack_require__(/*! vue-svg-component-runtime */ \"./node_modules/vue-svg-component-runtime/lib-esm/index.js\")\n    module.exports = {\n      __esModule: true,\n      default: runtime.svgComponent({\n  \"tag\": \"svg\",\n  \"attrsMap\": {\n    \"width\": \"24\",\n    \"height\": \"24\",\n    \"viewBox\": \"0 0 24 24\",\n    \"fill\": \"none\",\n    \"xmlns\": \"http://www.w3.org/2000/svg\"\n  },\n  \"children\": [\n    {\n      \"tag\": \"path\",\n      \"attrsMap\": {\n        \"d\": \"M12 14L21 9L12 4L3 9L12 14Z\",\n        \"stroke\": \"black\"\n      }\n    },\n    {\n      \"tag\": \"path\",\n      \"attrsMap\": {\n        \"d\": \"M11.9996 14.0001L18.1596 10.5781C18.9701 12.6362 19.2001 14.8773 18.8246 17.0571C16.2882 17.3033 13.8968 18.3537 11.9996 20.0551C10.1026 18.3539 7.71167 17.3035 5.17559 17.0571C4.79979 14.8773 5.02982 12.6362 5.84059 10.5781L11.9996 14.0001Z\",\n        \"stroke\": \"black\"\n      }\n    },\n    {\n      \"tag\": \"path\",\n      \"attrsMap\": {\n        \"d\": \"M12 14L21 9L12 4L3 9L12 14ZM12 14L18.16 10.578C18.9705 12.6361 19.2005 14.8772 18.825 17.057C16.2886 17.3032 13.8972 18.3536 12 20.055C10.1031 18.3538 7.71208 17.3034 5.176 17.057C4.8002 14.8772 5.03023 12.636 5.841 10.578L12 14ZM8 20V12.5L12 10.278\",\n        \"stroke\": \"black\",\n        \"stroke-width\": \"2\",\n        \"stroke-linecap\": \"round\",\n        \"stroke-linejoin\": \"round\"\n      }\n    }\n  ]\n})\n    }\n  \n\n//# sourceURL=webpack:///./src/assets/svg/academic-cap.svg?");
+eval("\n    var runtime = __webpack_require__(/*! vue-svg-component-runtime */ \"./node_modules/vue-svg-component-runtime/lib-esm/index.js\")\n    module.exports = {\n      __esModule: true,\n      default: runtime.svgComponent({\n  \"tag\": \"svg\",\n  \"attrsMap\": {\n    \"width\": \"24\",\n    \"height\": \"24\",\n    \"viewBox\": \"0 0 24 24\",\n    \"fill\": \"none\",\n    \"xmlns\": \"http://www.w3.org/2000/svg\",\n    \"stroke\": \"black\"\n  },\n  \"children\": [\n    {\n      \"tag\": \"path\",\n      \"attrsMap\": {\n        \"d\": \"M10 19L3 12M3 12L10 5M3 12H21\",\n        \"stroke-width\": \"2\",\n        \"stroke-linecap\": \"round\",\n        \"stroke-linejoin\": \"round\"\n      }\n    }\n  ]\n})\n    }\n  \n\n//# sourceURL=webpack:///./src/assets/svg/arrow-left.svg?");
 
 /***/ })
 

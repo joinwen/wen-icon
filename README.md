@@ -1,14 +1,18 @@
 ## wen-icon
+
 ### preview
 
 ### install
+
 ```
 npm install wen-icon --save 
 ```
 
 ### config
-```
+
 配置 vue-svg-icon-loader
+
+```
 1. webpack 配置
 npm install vue-svg-icon-loader -save-dev
 
@@ -17,10 +21,13 @@ module.exports = {
     rules: [
       {
         test: /\.svg$/,
+        resourceQuery: /wen-icon/,
         use: "vue-svg-icon-loader"
       }
     ]
   }
+}
+  
 2. vue-cli 配置
 npm install vue-svg-icon-loader --save-dev
 
@@ -29,10 +36,12 @@ module.exports = {
     const svgRule = config.module.rule("svg");
     svgRule.uses.clear();
     svgRule.use("vue-svg-icon-loader")
+    .resourceQuery(/wen-icon/)
     .loader("vue-svg-icon-loader");
   }
 }
 ```
+
 ### usage
 
 - #### 1. basic

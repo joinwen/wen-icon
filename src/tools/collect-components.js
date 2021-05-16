@@ -57,24 +57,22 @@ async function processSvg(svg) {
 function rewriteSvg(svg, content) {
   let svgQuery = cheerio.load(content),
       svgEle = svgQuery("svg"),
-      pathList = svgQuery("svg path"),
-      len = pathList.length;
-  if(len === 1) {
-    let strokeVal = pathList.attr("stroke");
-    pathList.removeAttr("stroke");
-    svgEle.attr("stroke", strokeVal);
-  } else {
-    let a = [];
-    for(let i = 0; i < len; i++) {
-      a.push(pathList.eq(i).attr("stroke"));
-    }
-    if(new Set(a).size === 1) {
-      svgEle.attr("stroke",pathList.eq(0).attr("stroke"));
-      for(let i = 0; i < len; i++) {
-        pathList.eq(i).removeAttr("stroke");
-      }
-    }
-  }
+      pathList = svgQuery("svg path");
+  extractAttrToSvg(svgEle, pathList,"stroke");
   content = svgQuery("body").html();
   fs.writeFileSync(path.resolve(__dirname, `../assets/svg/${svg.origin}`), content);
+}
+
+function extractAttrToSvg(svgEle, pathList, attr) {
+  let a = [],
+      len = pathList.length;
+  for(let i =0; i < len; i++) {
+    a.push(pathList.eq(i).attr(attr));
+  }
+  if(new Set(a).size === 1) {
+    svgEle.attr(attr, pathList.eq(0).attr(attr));
+    for(let i = 0; i < len; i++) {
+      pathList.eq(i).removeAttr(attr);
+    }
+  }
 }

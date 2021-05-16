@@ -9,7 +9,7 @@ module.exports = (env) => {
     mode: "development",
     entry: "/src/index.js",
     output: {
-      filename: "[name].index.js",
+      filename: "[name].js",
       path: path.resolve(__dirname, "preview"),
     },
     resolve: {
@@ -58,9 +58,8 @@ module.exports = (env) => {
         },
         {
           test: /\.svg$/,
-          use: [
-            "vue-svg-icon-loader",
-          ],
+          resourceQuery: /wen-icon/,
+          use: "vue-svg-icon-loader"
         },
       ],
     },

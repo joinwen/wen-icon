@@ -12,14 +12,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/assets/svg/annotation.svg":
-/*!***************************************!*\
-  !*** ./src/assets/svg/annotation.svg ***!
-  \***************************************/
+/***/ "./src/assets/svg/annotation.svg?wen-icon":
+/*!************************************************!*\
+  !*** ./src/assets/svg/annotation.svg?wen-icon ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\n    var runtime = __webpack_require__(/*! vue-svg-component-runtime */ \"./node_modules/vue-svg-component-runtime/lib-esm/index.js\")\n    module.exports = {\n      __esModule: true,\n      default: runtime.svgComponent({\n  \"tag\": \"svg\",\n  \"attrsMap\": {\n    \"width\": \"24\",\n    \"height\": \"24\",\n    \"viewBox\": \"0 0 24 24\",\n    \"fill\": \"none\",\n    \"xmlns\": \"http://www.w3.org/2000/svg\"\n  },\n  \"children\": [\n    {\n      \"tag\": \"path\",\n      \"attrsMap\": {\n        \"d\": \"M7 8H17M7 12H11M12 20L8 16H5C4.46957 16 3.96086 15.7893 3.58579 15.4142C3.21071 15.0391 3 14.5304 3 14V6C3 5.46957 3.21071 4.96086 3.58579 4.58579C3.96086 4.21071 4.46957 4 5 4H19C19.5304 4 20.0391 4.21071 20.4142 4.58579C20.7893 4.96086 21 5.46957 21 6V14C21 14.5304 20.7893 15.0391 20.4142 15.4142C20.0391 15.7893 19.5304 16 19 16H16L12 20Z\",\n        \"stroke\": \"black\",\n        \"stroke-width\": \"2\",\n        \"stroke-linecap\": \"round\",\n        \"stroke-linejoin\": \"round\"\n      }\n    }\n  ]\n})\n    }\n  \n\n//# sourceURL=webpack:///./src/assets/svg/annotation.svg?");
+eval("\n    var runtime = __webpack_require__(/*! vue-svg-component-runtime */ \"./node_modules/vue-svg-component-runtime/lib-esm/index.js\")\n    module.exports = {\n      __esModule: true,\n      default: runtime.svgComponent({\n  \"tag\": \"svg\",\n  \"attrsMap\": {\n    \"width\": \"24\",\n    \"height\": \"24\",\n    \"viewBox\": \"0 0 24 24\",\n    \"fill\": \"none\",\n    \"xmlns\": \"http://www.w3.org/2000/svg\",\n    \"stroke\": \"black\"\n  },\n  \"children\": [\n    {\n      \"tag\": \"path\",\n      \"attrsMap\": {\n        \"d\": \"M7 8H17M7 12H11M12 20L8 16H5C4.46957 16 3.96086 15.7893 3.58579 15.4142C3.21071 15.0391 3 14.5304 3 14V6C3 5.46957 3.21071 4.96086 3.58579 4.58579C3.96086 4.21071 4.46957 4 5 4H19C19.5304 4 20.0391 4.21071 20.4142 4.58579C20.7893 4.96086 21 5.46957 21 6V14C21 14.5304 20.7893 15.0391 20.4142 15.4142C20.0391 15.7893 19.5304 16 19 16H16L12 20Z\",\n        \"stroke-width\": \"2\",\n        \"stroke-linecap\": \"round\",\n        \"stroke-linejoin\": \"round\"\n      }\n    }\n  ]\n})\n    }\n  \n\n//# sourceURL=webpack:///./src/assets/svg/annotation.svg?");
 
 /***/ })
 

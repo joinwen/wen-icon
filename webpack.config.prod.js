@@ -57,9 +57,8 @@ module.exports = (env) => {
         },
         {
           test: /\.svg$/,
-          use: [
-            "vue-svg-icon-loader",
-          ],
+          resourceQuery: /wen-icon/,
+          use: "vue-svg-icon-loader"
         },
       ],
     },
