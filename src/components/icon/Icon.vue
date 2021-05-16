@@ -1,10 +1,10 @@
 <template>
-  <component class="icon" :is="map[name]" :width="width" :height="height" :fill="fill"></component>
+  <component :is="map[name]" :width="width" :height="height" :fill="fill" :stroke="stroke"></component>
 </template>
 <script>
 import svgFactory from "../../tools/svg";
 export default {
-  name: "Icon",
+  name: "WenIcon",
   props: {
     name: {
       type: String,
@@ -34,8 +34,3 @@ export default {
   },
 };
 </script>
-<style scoped lang="css">
-.icon > path {
-  stroke: cyan;
-}
-</style>

@@ -8,7 +8,7 @@ module.exports = (env) => {
     mode: "production",
     entry: "/src/main.js",
     output: {
-      filename: "[name].index.js",
+      filename: "[name].js",
       path: path.resolve(__dirname, "dist"),
     },
     resolve: {

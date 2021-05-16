@@ -1,3 +1,3 @@
-import Icon from "./components/icon/Icon";
+import WenIcon from "./components/icon/Icon";
 
-export default Icon;
+export default WenIcon;

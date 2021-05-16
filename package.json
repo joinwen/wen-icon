@@ -1,12 +1,12 @@
 {
   "name": "wen-icon",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "making svg into vue component integrated with figma",
-  "main": "dist/main.index.js",
+  "main": "dist/main.js",
   "module": "src/main.js",
   "scripts": {
     "generate": "node src/tools/collect-components.js",
-    "dev": "webpack serve --open --env file=env.development",
+    "dev": "npm run generate && webpack serve --open --env file=env.development",
     "build:preview": "npm run generate && webpack --env file=env.production",
     "build": "npm run generate && webpack --config webpack.config.prod.js --env file=env.production",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +28,7 @@
     "@babel/plugin-transform-runtime": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "babel-loader": "^8.2.2",
+    "cheerio": "^1.0.0-rc.9",
     "css-loader": "^5.2.4",
     "dotenv-webpack": "^7.0.2",
     "eslint": "^7.26.0",
@@ -38,6 +39,7 @@
     "less": "^4.1.1",
     "less-loader": "^7.3.0",
     "postcss-loader": "^4.2.0",
+    "svgo": "^2.3.0",
     "vue-loader": "^15.9.7",
     "vue-style-loader": "^4.1.3",
     "vue-svg-icon-loader": "^2.1.1",

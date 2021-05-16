@@ -18,6 +18,48 @@
     "suffix": "svg"
   },
   {
+    "origin": "archive.svg",
+    "name": "archive",
+    "componentName": "Archive",
+    "suffix": "svg"
+  },
+  {
+    "origin": "arrow-circle-down.svg",
+    "name": "arrow-circle-down",
+    "componentName": "ArrowCircleDown",
+    "suffix": "svg"
+  },
+  {
+    "origin": "arrow-circle-left.svg",
+    "name": "arrow-circle-left",
+    "componentName": "ArrowCircleLeft",
+    "suffix": "svg"
+  },
+  {
+    "origin": "arrow-circle-right.svg",
+    "name": "arrow-circle-right",
+    "componentName": "ArrowCircleRight",
+    "suffix": "svg"
+  },
+  {
+    "origin": "arrow-circle-up.svg",
+    "name": "arrow-circle-up",
+    "componentName": "ArrowCircleUp",
+    "suffix": "svg"
+  },
+  {
+    "origin": "arrow-down.svg",
+    "name": "arrow-down",
+    "componentName": "ArrowDown",
+    "suffix": "svg"
+  },
+  {
+    "origin": "arrow-left.svg",
+    "name": "arrow-left",
+    "componentName": "ArrowLeft",
+    "suffix": "svg"
+  },
+  {
     "origin": "chart-bar.svg",
     "name": "chart-bar",
     "componentName": "ChartBar",
