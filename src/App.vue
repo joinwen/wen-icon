@@ -7,31 +7,31 @@
       <h3>1.使用</h3>
       <div class="icon-example">
         <p>1. basic</p>
+        <wen-icon name="chart-bar" />
         <p class="code">
           &lt;wen-icon name="chart-bar" /&gt;
         </p>
-        <wen-icon name="chart-bar" />
       </div>
       <div class="icon-example">
         <p>2. width, height</p>
+        <wen-icon width="2em" height="2em" name="chart-bar" />
         <p class="code">
           &lt;wen-icon width="2em" height="2em" name="chart-bar" /&gt;
         </p>
-        <wen-icon width="2em" height="2em" name="chart-bar" />
       </div>
       <div class="icon-example">
         <p>3. stroke</p>
+        <wen-icon stroke="#22a1ff" name="chart-bar" />
         <p class="code">
           &lt;wen-icon stroke="#22a1ff" name="chart-bar" /&gt;
         </p>
-        <wen-icon stroke="#22a1ff" name="chart-bar" />
       </div>
       <div class="icon-example">
         <p>4. fill</p>
+        <wen-icon fill="#22a1ff" name="chart-bar" />
         <p class="code">
           &lt;wen-icon fill="#22a1ff" name="chart-bar" /&gt;
         </p>
-        <wen-icon fill="#22a1ff" name="chart-bar" />
       </div>
     </div>
     <div class="icon-container">
@@ -114,9 +114,12 @@ body {
   .icon-example {
     margin-bottom: 1em;
     width: 100%;
+    p {
+      margin-bottom: 0.5em;
+    }
     .code {
       padding: 0.5em 1em;
-      margin: 0.5em 0em;
+      margin: 0.5em 0;
       border-radius: 4px;
       background: #333333;
       color: #e8e7e3;
