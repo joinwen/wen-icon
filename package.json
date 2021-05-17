@@ -9,7 +9,7 @@
     "dev": "npm run generate && webpack serve --open --env file=env.development",
     "build:preview": "npm run generate && webpack --env file=env.production",
     "build": "npm run generate && webpack --config webpack.config.prod.js --env file=env.production",
-    "gh-pages": "gh-pages -d preview",
+    "gh-pages": "gh-pages -d docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -11,7 +11,7 @@ module.exports = (env) => {
     entry: "/src/index.js",
     output: {
       filename: "[name].js",
-      path: path.resolve(__dirname, "preview"),
+      path: path.resolve(__dirname, "docs"),
     },
     resolve: {
       alias: {
