@@ -10,7 +10,7 @@ module.exports = (env) => {
     mode: "development",
     entry: "/src/index.js",
     output: {
-      filename: "js/entry.[name].[contenthash:8].js",
+      filename: "js/entry.[name].[hash:8].js",
       chunkFilename: "js/chunk.[name].[contenthash:8].js",
       path: path.resolve(__dirname, "docs"),
     },
